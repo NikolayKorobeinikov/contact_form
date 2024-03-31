@@ -1,0 +1,131 @@
+.form {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+  padding: 50px 40px;
+}
+.write__us {
+  background-color: rgb(39, 42, 52);
+  width: 460px;
+  padding: 48px 48px;
+}
+h1 {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  margin-bottom: 16px;
+}
+.application {
+  width: 364px;
+  height: 52px;
+  background-color: rgb(39, 42, 52);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgb(244, 231, 231);
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+.text {
+  color: #f65c78;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+.area {
+  width: 364px;
+  height: 144px;
+  background-color: rgb(39, 42, 52);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgb(244, 231, 231);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-bottom: 16px;
+  font-family: inherit;
+}
+::placeholder {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: normal;
+}
+.btn {
+  width: 128px;
+  height: 47px;
+  padding: 12px 16px;
+  background-color: rgb(243, 148, 34);
+  color: #fff;
+  border-width: 1px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(240, 141, 19, 0.735);
+  transition-duration: 1s;
+}
+.information {
+  background-color: rgb(28, 30, 37);
+  width: 460px;
+  padding: 48px 48px;
+}
+.contact__information {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+.info__chat {
+  margin-bottom: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgb(102, 102, 102);
+}
+.contacts {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+.awesome {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.02);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid {
+  font-size: 20px;
+  color: white;
+}
+.info {
+  margin-left: 16px;
+  width: 298px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgb(102, 102, 102);
+}
+.details {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
